@@ -14,7 +14,7 @@ const AboutUs = () => (
                 <img src={images.spoon} alt="about_spoon" className="spoon__img"/>
                 <p className="p__opensans">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
-
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam excepturi quidem dolorum aperiam dolore. Veritatis nobis quos iste harum! Natus.
                 </p>
                 <button type="button" className="custom__button">Know more</button>
 
@@ -29,7 +29,7 @@ const AboutUs = () => (
                 <img src={images.spoon} alt="about_spoon" className="spoon__img"/>
                 <p className="p__opensans">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
-
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt beatae vero officiis impedit sapiente qui quasi ipsa nesciunt accusamus blanditiis!
                 </p>
                 <button type="button" className="custom__button">Know more</button>
 
