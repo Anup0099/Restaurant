@@ -1,17 +1,52 @@
 import React from 'react';
 
 import './SpecialMenu.css';
-import {images,data} from '../../constants'
-import {SubHeading,MenuItem} from '../../components'
-const SpecialMenu = () => (
-  <div className="app__special-menu flex__center section__padding " id="menu">
-  <div className="app__special-menu-title">
-    <SubHeading/>
-    <h1 className="headtext__cormorant">Today's menu</h1>
-  </div>
-    <div className="app__special-menu"></div>
+import {images, data} from '../../constants'
+import {SubHeading, MenuItem} from '../../components'
 
-  </div>
+const SpecialMenu = () => (
+    <div className="app__specialMenu flex__center section__padding " id="menu">
+        <div className="app__special-menu-title">
+            <SubHeading/>
+            <h1 className="headtext__cormorant">Today's menu</h1>
+        </div>
+        <div className="app__special-menu">
+            <div className="app__specialMenu-menu_wine flex__center">
+
+                <p className="app__specialMenu_menu_heading">wine & beer</p>
+                <div className="app__specialMenu_menu_items">
+                    {
+                        data.wines.map((wine, index) => (
+                                <p>{wine.title}</p>
+                            )
+                        )
+                    }
+                </div>
+            </div>
+            <div className="app__special-menu_img">
+                <img src={images.menu} alt="menu-img"/>
+            </div>
+            <div className="app__specialMenu-menu_cocktails flex__center">
+
+                <p className="app__specialMenu_menu_heading">wine & beer</p>
+                <div className="app__specialMenu_menu_items">
+                    {
+                        data.cocktails.map((cocktail, index) => (
+                                <p>{cocktail.title}</p>
+                            )
+                        )
+                    }
+                </div>
+              
+                
+            </div>
+
+        </div>
+        <div style={{marginTop:'150px'}}>
+            <button className=
+            'custom__button'>View More</button>
+        </div>
+    </div>
 );
 
 export default SpecialMenu;
