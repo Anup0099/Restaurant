@@ -11,4 +11,8 @@
 .app__specialMenu-menu{
     width:100%;
     margin:2rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
 }
