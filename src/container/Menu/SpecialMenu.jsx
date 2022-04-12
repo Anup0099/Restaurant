@@ -7,7 +7,7 @@ import { SubHeading, MenuItem } from "../../components";
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding " id="menu">
     <div className="app__special-menu-title">
-      <SubHeading />
+      <SubHeading title="Menu that fits you pallette"/>
       <h1 className="headtext__cormorant">Today's menu</h1>
     </div>
     <div className="app__specialMenu-menu">
@@ -32,7 +32,7 @@ const SpecialMenu = () => (
       </div>
     </div>
 
-    <div style={{ marginTop: 15 }}>
+    <div style={{ marginTop: '15px' }}>
       <button className="custom__button">View More</button>
     </div>
   </div>
