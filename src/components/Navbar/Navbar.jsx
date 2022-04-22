@@ -47,7 +47,7 @@ const Navbar = () => {
         <GiHamburgerMenu
           color="#fff"
           fontSize={27}
-          onClick={() => setToggleMenu(true)}
+          onClick={() => setToggleMenu(false)}
         />
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
