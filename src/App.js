@@ -16,7 +16,7 @@ import "./App.css";
 
 const App = () => (
   <div>
-    <Navbar />
+    {/* <Navbar />
     <Header />
     <AboutUs />
     <SpecialMenu />
@@ -24,7 +24,7 @@ const App = () => (
     <Intro />
     <Laurels />
     <Gallery />
-    <FindUs />
+    <FindUs /> */}
     <Footer />
   </div>
 );
