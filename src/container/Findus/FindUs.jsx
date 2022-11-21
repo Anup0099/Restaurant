@@ -1,6 +1,6 @@
 import React from "react";
-import { images, data } from "../../constants";
-import { SubHeading, MenuItem } from "../../components";
+import { images } from "../../constants";
+import { SubHeading} from "../../components";
 const FindUs = () => (
   <div>
     <div className="app__bg app__wrapper section__padding" id="contact">
